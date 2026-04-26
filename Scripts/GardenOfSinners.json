@@ -38,7 +38,7 @@
   },
   {
     "id": "Hangman",
-    "image": "https://raw.githubusercontent.com/caseyforey/BOTC_scripts/ab744728ef62466ee4b7c4ad5739b83ada6f3f39/hangman_botc.png?token=GHSAT0AAAAAAD3PI3RAS4MX4MXCU3NE3K7E2PNJWQA",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/Townsfolk/hangman_botc.png?raw=true",
     "reminders": ["chosen","no ability"],
     "name": "Hangman",
     "team": "townsfolk",
@@ -54,12 +54,12 @@
     "reminders": ["Drunk"],
     "name": "Bon Vivant",
     "team": "townsfolk",
-    "ability": "Your alive neighbors (Not including travelers) are drunk"
+    "ability": "Your alive neighbors (Not including travelers) that are not the demon, are drunk."
 
   },
   {
     "id": "Voyeur",
-    "image": "https://raw.githubusercontent.com/caseyforey/BOTC_scripts/refs/heads/main/voyuer.png?token=GHSAT0AAAAAAD3PI3RBF5QO3LW27MAHGKZI2PNKZLA",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/Townsfolk/voyuer.png?raw=true",
     "reminders": ["chosen"],
     "name": "Voyeur",
     "team": "townsfolk",
@@ -71,7 +71,7 @@
   },
   {
     "id": "Hustler",
-    "image": "https://raw.githubusercontent.com/caseyforey/BOTC_scripts/refs/heads/main/hustler.png?token=GHSAT0AAAAAAD3PI3RBAUL5U3RFAZTDBKZI2PNK2PA",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/Townsfolk/hustler.png?raw=true",
     "reminders": ["Broken Madness", "Nominated"],
     "name": "Hustler",
     "team": "townsfolk",
@@ -160,7 +160,7 @@
   },
   {
     "id": "Queen of Lies",
-    "image": "https://raw.githubusercontent.com/caseyforey/BOTC_scripts/refs/heads/main/queen%20of%20lies.png?token=GHSAT0AAAAAAD3PI3RBRQM5W2OR37M24TKY2PNLMJQ",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/Demons/queen%20of%20lies.png?raw=true",
     "reminders": ["chosen","dead"],
     "name": "Queen of Lies",
     "team": "demon",
@@ -168,7 +168,7 @@
   },
   {
     "id": "Hand of God",
-    "image": "https://raw.githubusercontent.com/caseyforey/BOTC_scripts/refs/heads/main/word%20of%20god.png?token=GHSAT0AAAAAAD3PI3RBEVH5CSYADW6QESRY2PNLOQA",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/Demons/word%20of%20god.png?raw=true",
     "reminders": ["Hand Raised"],
     "name": "Hand of God",
     "team": "demon",
