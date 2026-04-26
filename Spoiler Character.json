@@ -28,7 +28,7 @@
   },
   {
     "id": "Hangman",
-    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/hangman_botc.png?raw=true",
+    "image": ["https://github.com/caseyforey/BOTC_scripts/blob/main/Images/hangman_botc.png?raw=true"],
     "reminders": ["chosen","no ability"],
     "name": "Hangman",
     "team": "townsfolk",
@@ -43,8 +43,24 @@
     "ability": "Your alive neighbors (Not including travelers) are drunk"
   },
   {
+    "id": "Apothecary",
+    "image": "",
+    "reminders": ["Rule Added","Ability Used"],
+    "name": "Apothecary",
+    "team": "townsfolk",
+    "ability": "Once per game, suggest a new game rule. If the storyteller agrees, you die, but your rule is included."
+  },
+  {
+    "id": "Bodyguard",
+    "image": "",
+    "reminders": ["Chosen","No ability"],
+    "name": "Bodyguard",
+    "team": "townsfolk",
+    "ability": "Once per game, at night, choose a character (not yourself): evil abilities that would affect them specifically, don't."
+  },
+  {
     "id": "Voyeur",
-    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/voyuer.png?raw=true",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/voyuer.png?raw=true",
     "reminders": ["chosen"],
     "name": "Voyeur",
     "team": "townsfolk",
@@ -52,7 +68,7 @@
   },
   {
     "id": "Hustler",
-    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/hustler.png?raw=true",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/hustler.png?raw=true",
     "reminders": ["Broken Madness", "Nominated"],
     "name": "Hustler",
     "team": "townsfolk",
@@ -186,7 +202,7 @@
     "team": "townsfolk",
     "ability": "Evil can't win. The 1st time evil would win, the Demon learns you are the Taxman tonight."
   },
-    {
+  {
     "id": "Machinist",
     "image": "",
     "reminders": ["Machinist"],
@@ -195,14 +211,191 @@
     "ability": "On your 1st day, visit the Storyteller to become a non-listed character, even if drunk or poisoned. [+0 to +2 Machinists]"
   },
   {
+    "id": "Coachman",
+    "image": "",
+    "reminders": [],
+    "name": "Coachman",
+    "team": "townsfolk",
+    "ability": "Each day, choose a 1-word topic on which the Storyteller gives a fact. If your neighbors are different alignments, it is false."
+  },
+  {
+    "id": "Diplomat",
+    "image": "",
+    "reminders": ["Learned"],
+    "name": "Diplomat",
+    "team": "townsfolk",
+    "ability": "You start knowing which players are minions. If a minion you know is executed, your team loses, even if you're dead."
+  },
+  {
+    "id": "Druid",
+    "image": "",
+    "reminders": ["Learned"],
+    "name": "Druid",
+    "team": "townsfolk",
+    "ability": "You start knowing which players are minions. If a minion you know is executed, your team loses, even if you're dead."
+  },
+  {
+    "id": "Fairy",
+    "image": "",
+    "reminders": ["Learned"],
+    "name": "Fairy",
+    "team": "townsfolk",
+    "ability": "If the demon attacks a player it attacks one of their living neighbors instead. Each night* choose if you are drunk or not."
+  },
+  {
+    "id": "Houndskeeper",
+    "image": "",
+    "reminders": ["Learned"],
+    "name": "Houndskeeper",
+    "team": "townsfolk",
+    "ability": "Each night, you learn how many steps to the nearest living player targeted by an evil player."
+  },
+  {
+    "id": "Insomniac",
+    "image": "",
+    "reminders": ["Learned"],
+    "name": "Insomniac",
+    "team": "townsfolk",
+    "ability": "Each night, you learn a character that died tonight."
+  },
+  {
+    "id": "Leper",
+    "image": "",
+    "reminders": ["Poisoned"],
+    "name": "Leper",
+    "team": "townsfolk",
+    "ability": "If the demon kills you, it is poisoned."
+  },
+  {
+    "id": "Lion Tamer",
+    "image": "",
+    "reminders": ["Safe from Demon"],
+    "name": "Leper",
+    "team": "townsfolk",
+    "ability": "If either alive neighbors died by execution today, all players are safe from the Demon tonight."
+  },
+  {
+    "id": "Merchant",
+    "image": "",
+    "reminders": ["Made Deal"],
+    "name": "Merchant",
+    "team": "townsfolk",
+    "ability": "Once per game you & 1 other player may choose to make a deal. Whoever breaks the deal, loses."
+  },
+  {
+    "id": "Messanger",
+    "image": "",
+    "reminders": ["Question asked","Learns Answer"],
+    "name": "Messanger",
+    "team": "townsfolk",
+    "ability": "Once per game, publicly ask a question. On the final night, even if you are dead, an alive player gets the answer."
+  },
+  {
+    "id": "Moneylender",
+    "image": "",
+    "reminders": ["Chosen"],
+    "name": "Moneylender",
+    "team": "townsfolk",
+    "ability": "Each night, choose an alive player (Not yourself), you become their alignment."
+  },
+  {
+    "id": "Mystic",
+    "image": "",
+    "reminders": ["Died at night"],
+    "name": "Mystic",
+    "team": "townsfolk",
+    "ability": "If you died at night, you are reborn as a good character of your choice on the final night, even if drunk or poisoned."
+  },
+  {
+    "id": "Nanny",
+    "image": "",
+    "reminders": ["Eyes covered"],
+    "name": "Nanny",
+    "team": "townsfolk",
+    "ability": "At night, other player with both hands over their eyes can not die, but if you die, they die too."
+  },
+  {
+    "id": "Poet",
+    "image": "",
+    "reminders": ["Chosen"],
+    "name": "Poet",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player: you learn how many of a particular letter is in their character name. (But not which letter)"
+  },
+  {
+    "id": "Prophet",
+    "image": "",
+    "reminders": [],
+    "name": "Prophet",
+    "team": "townsfolk",
+    "ability": "On your 1st night, choose a day number: if all dead players are good that dawn, they are resurrected as Travelers."
+  },
+  {
+    "id": "Quack",
+    "image": "",
+    "reminders": ["Chosen"],
+    "name": "Quack",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 living players: abilities that target 1 target the other instead. The demon cannot die this way."
+  },
+  {
+    "id": "Scholar",
+    "image": "",
+    "reminders": [],
+    "name": "Scholar",
+    "team": "townsfolk",
+    "ability": "You start knowing which Demon(s) & Minion(s) are in play."
+  },
+  {
+    "id": "Schoolmarm",
+    "image": "",
+    "reminders": [],
+    "name": "Schoolmarm",
+    "team": "townsfolk",
+    "ability": "Players who turn evil learn you are in play & may choose to remain good. [1 evil-creating character is in-play]"
+  },
+  {
+    "id": "Strongman",
+    "image": "",
+    "reminders": ["Has ability"],
+    "name": "Strongman",
+    "team": "townsfolk",
+    "ability": "If you were the only player mad about being the Strongman today & a player chooses you tonight for any reason, they die."
+  },
+  {
+    "id": "Thespian",
+    "image": "",
+    "reminders": ["Mad"],
+    "name": "Thespian",
+    "team": "townsfolk",
+    "ability": "Each day a good and an evil player are each 'mad' about something, or they might die."
+  },
+  {
+    "id": "Tycoon",
+    "image": "",
+    "reminders": ["Hand Shaken","Drunk"],
+    "name": "Tycoon",
+    "team": "townsfolk",
+    "ability": "Each night*, learn if you shook hands with an evil player today. 1 player that you have ever shaken hands with is drunk."
+  },
+  {
+    "id": "Witch Hunter",
+    "image": "",
+    "reminders": ["Chosen","Turned Evil"],
+    "name": "Witch Hunter",
+    "team": "townsfolk",
+    "ability": "Each night, Choose a player: you learn their alignment. If they are not executed tomorrow, they turn evil. You can not be evil."
+  },
+  {
     "id": "Feathermaster",
     "image": "",
     "reminders": ["drunk", "feathermaster"],
     "name": "Feathermaster",
     "team": "outsider",
-    "ability": "You think you are a Townsfolk & have that ability. Good players who nominate you are drunk until dusk tomorrow." 
+    "ability": "Each day, publicly choose a player: if either of you die tonight, an alive Minion dies instead, if possible." 
   },
-    {
+
+  {
     "id": "Donkey Wrangler",
     "image": "",
     "reminders": ["Nominated","Passed"],
@@ -252,6 +445,30 @@
     "ability": "If you are not mad as an in-play Townsfolk, a Townsfolk might die, even if you are dead."
   },
   {
+    "id": "Casanova",
+    "image": "",
+    "reminders": [],
+    "name": "Casanova",
+    "team": "outsider",
+    "ability": "Each night, choose a living player (not yourself): if they are executed & they are good, your team loses."
+  },
+  {
+    "id": "Charalatan",
+    "image": "",
+    "reminders": [],
+    "name": "Charalatan",
+    "team": "outsider",
+    "ability": "The 1st time a player dies during the day, you become their alignment from tonight onwards."
+  },
+  {
+    "id": "Troll",
+    "image": "",
+    "reminders": ["Learned the Troll"],
+    "name": "Troll",
+    "team": "outsider",
+    "ability": "Each night, choose your alignment. On the final night even if you are dead, 1 player learns the Troll is in play."
+  },
+  {
     "id": "Haunt",
     "image": "",
     "reminders": ["chosen"],
@@ -259,7 +476,6 @@
     "team": "minion",
     "ability": "Each night*, choose a player: they learn this. if you have chosen all alive good players, evil wins. Good can't win."
   },
-
   {
     "id": "Imposter",
     "image": "",
@@ -340,8 +556,72 @@
     "ability": "Players may only nominate their living neighbors, even if you are dead."
   }, 
   {
+    "id": "Familiar",
+    "image": "",
+    "reminders": ["Dead", "No ability"],
+    "name": "Familiar",
+    "team": "minion",
+    "ability": "Each night*, you wake with the demon & choose a player: they die. If you die, the demon loses its ability for the night."
+  },
+  {
+    "id": "Klaun",
+    "image": "",
+    "reminders": ["Mad"],
+    "name": "Klaun",
+    "team": "minion",
+    "ability": "Each night, you choose up to 3 players: they think they are mad, but are not."
+  }, 
+  {
+    "id": "Necromancer",
+    "image": "",
+    "reminders": ["Not alive"],
+    "name": "Necromancer",
+    "team": "minion",
+    "ability": "Once per game, at night, choose a player: they register as alive and think they have an ability, but don't."
+  }, 
+  {
+    "id": "Riddle Fiend",
+    "image": "",
+    "reminders": [],
+    "name": "Riddle Fiend",
+    "team": "minion",
+    "ability": "On the final day, even if you are dead, all players learn the Riddle Fiend is in play and guess who you are. Unless 2 players do, Evil wins."
+  },
+  {
+    "id": "Ring Master",
+    "image": "",
+    "reminders": ["Is the Storyteller"],
+    "name": "Ring Master",
+    "team": "minion",
+    "ability": "Once per game, choose to become (or assist) the storyteller. You may still vote."
+  },
+  {
+    "id": "Scarecrow",
+    "image": "",
+    "reminders": [],
+    "name": "Scarecrow",
+    "team": "minion",
+    "ability": "To good players, you register as the Demon & the Demon registers as a minion"
+  },
+  {
+    "id": "Sicilian",
+    "image": "",
+    "reminders": [],
+    "name": "Sicilian",
+    "team": "minion",
+    "ability": "When nominations are called, if you publicly choose a player (Not yourself) & they are not executed today, Their team wins."
+  },
+  {
+    "id": "Smuggler",
+    "image": "",
+    "reminders": ["Learns Smuggler"],
+    "name": "Smuggler",
+    "team": "minion",
+    "ability": "On the 1st night choose a good player: they learn you are 1 of 3 players. [+1 Minion, all Minions are Smugglers]"
+  },
+  {
     "id": "Queen of Lies",
-    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/queen%20of%20lies.png?raw=true",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/queen%20of%20lies.png?raw=true",
     "reminders": ["chosen","dead"],
     "name": "Queen of Lies",
     "team": "demon",
@@ -394,6 +674,77 @@
     "name": "Word of God",
     "team": "demon",
     "ability": "Each dusk*, for each good player with a hand raised, choose a player: they die. If no one living raised a hand, evil wins."
-  }
-  
+  },
+  {
+    "id": "Dolomite",
+    "image": "",
+    "reminders": ["Hand Raised","Dead"],
+    "name": "Word of God",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they turn evil and learn who you are. Once per game, you lose this ability.[No Minions]"
+  },
+  {
+    "id": "Hydra",
+    "image": "",
+    "reminders": ["Spawn","Dead","Is the hydra"],
+    "name": "Hydra",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. 1 ally of each executee is the spawn. If you are executed the spawn becomes Hydra."
+  },
+  {
+    "id": "J'Nak",
+    "image": "",
+    "reminders": ["Dead","Learned","Knows"],
+    "name": "J'Nak",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. 1 good player knows you are 1 of 2 players. If you are executed while a minion lives, evil wins."
+  },
+  {
+    "id": "Le Cadeau",
+    "image": "",
+    "reminders": ["Dead","Nominated","Is the Le Cadeau"],
+    "name": "Le Cadeau",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. The 1st townsfolk to nominate Le Cadeau becomes an evil Le Cadeau and you die tonight."
+  },
+  {
+    "id": "Shacklewight",
+    "image": "",
+    "reminders": ["Dead","Chosen"],
+    "name": "Shacklewight",
+    "team": "demon",
+    "ability": "Each night, choose any number of players: they all wake together. Tomorrow day, if one dies they all die. 1 Player must die each day."
+  },
+  {
+    "id": "Sissaphyth",
+    "image": "",
+    "reminders": ["Was the Sissaphyth"],
+    "name": "Sissaphyth",
+    "team": "demon",
+    "ability": "At night, if 1 good player and 1 evil player are dead, choose a Demon: become it, acting twice each night."
+  },
+  {
+    "id": "Soul Hammer",
+    "image": "",
+    "reminders": ["Dead cannot speak"],
+    "name": "Soul Hammer",
+    "team": "demon",
+    "ability": "Each night*, choose a player, they die. After the final night, the dead may not talk to the living."
+  },
+  {
+    "id": "The Rising",
+    "image": "",
+    "reminders": [],
+    "name": "The Rising",
+    "team": "demon",
+    "ability": "All Players start dead. If executed. They are raised from the dead. If all players of 1 alignment are alive, their team wins."
+  },
+  {
+    "id": "Zodian",
+    "image": "",
+    "reminders": ["Dead"],
+    "name": "Zodian",
+    "team": "demon",
+    "ability": "A character dies each night*, in script order. Evil players start knowing all not-in-play good characters."
+  } 
 ]
