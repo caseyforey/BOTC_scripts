@@ -1,0 +1,84 @@
+[
+  {
+    "id": "Feathermaster",
+    "image": "",
+    "reminders": ["drunk", "feathermaster"],
+    "name": "Feathermaster",
+    "team": "outsider",
+    "ability": "Each day, publicly choose a player: if either of you die tonight, an alive Minion dies instead, if possible."
+  },
+
+  {
+    "id": "Donkey Wrangler",
+    "image": "",
+    "reminders": ["Nominated","Passed"],
+    "name": "Donkey Wrangler",
+    "team": "outsider",
+    "ability": "If you are nominated, the demon must be executed today, or your team loses. [Your token is a square]"
+  },
+
+  {
+    "id": "Bully",
+    "image": "",
+    "reminders": ["Dead"],
+    "name": "Bully",
+    "team": "outsider",
+    "ability": "Any players who vote differently to you might die at any time."
+  },
+  {
+    "id": "Prisoner",
+    "image": "",
+    "reminders": ["no ability"],
+    "name": "Prisoner",
+    "team": "outsider",
+    "ability": "You may not vote. You know 1 not-in-play character. If most players choose to free you, become that character & alignment."
+  },
+  {
+    "id": "Tramp",
+    "image": "",
+    "reminders": [],
+    "name": "Tramp",
+    "team": "outsider",
+    "ability": "If there are any votes to execute you, you might be executed immediately"
+  },
+  {
+    "id": "Golden Child",
+    "image": "",
+    "reminders": [],
+    "name": "Golden Child",
+    "team": "outsider",
+    "ability": "The 1st player to nominate you, turns evil that night, even if you are dead. If it's you, your team loses."
+  },
+  {
+    "id": "Daredevil",
+    "image": "",
+    "reminders": [],
+    "name": "Daredevil",
+    "team": "outsider",
+    "ability": "If you are not mad as an in-play Townsfolk, a Townsfolk might die, even if you are dead."
+  },
+  {
+    "id": "Casanova",
+    "image": "",
+    "reminders": [],
+    "name": "Casanova",
+    "team": "outsider",
+    "ability": "Each night, choose a living player (not yourself): if they are executed & they are good, your team loses."
+  },
+  {
+    "id": "Charalatan",
+    "image": "",
+    "reminders": [],
+    "name": "Charalatan",
+    "team": "outsider",
+    "ability": "The 1st time a player dies during the day, you become their alignment from tonight onwards."
+  },
+  {
+    "id": "Troll",
+    "image": "",
+    "reminders": ["Learned the Troll"],
+    "name": "Troll",
+    "team": "outsider",
+    "ability": "Each night, choose your alignment. On the final night even if you are dead, 1 player learns the Troll is in play."
+  }
+]

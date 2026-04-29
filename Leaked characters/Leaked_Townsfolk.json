@@ -1,0 +1,389 @@
+[
+  {
+    "id": "_meta",
+    "name": "Spoiler Warning",
+    "author": "Casey"
+  },
+    {
+    "id": "Template",
+    "image": "link",
+    "firstNight": 0,
+    "firstNightReminder": "Show 3 character tokens.",
+    "reminders": [
+      "In play"
+    ],
+    "name": "Baker",
+    "team": "townsfolk",
+    "ability": "You start knowing 3 characters, 1 and only 1 of which is in play."
+  },
+  {
+    "id": "Falconer",
+    "image": "",
+    "firstNight":"",
+    "firstNightReminder":"",
+    "reminders": [""],
+    "name": "Falconer",
+    "team": "townsfolk",
+    "ability": "Each dusk*, you may visit the Storyteller to learn how many townsfolk are alive. [+0 or +1 Outsiders]"
+  },
+  {
+    "id": "Hangman",
+    "image": ["https://github.com/caseyforey/BOTC_scripts/blob/main/Images/hangman_botc.png?raw=true"],
+    "reminders": ["chosen","no ability"],
+    "name": "Hangman",
+    "team": "townsfolk",
+    "ability": "On your 1st day, choose a player. If they are a good & they don't declare their character immediately, they die."
+  },
+  {
+    "id": "Bon Vivant",
+    "image": "",
+    "reminders": ["Drunk"],
+    "name": "Bon Vivant",
+    "team": "townsfolk",
+    "ability": "Your alive neighbors (Not including travelers) are drunk"
+  },
+  {
+    "id": "Apothecary",
+    "image": "",
+    "reminders": ["Rule Added","Ability Used"],
+    "name": "Apothecary",
+    "team": "townsfolk",
+    "ability": "Once per game, suggest a new game rule. If the storyteller agrees, you die, but your rule is included."
+  },
+  {
+    "id": "Bodyguard",
+    "image": "",
+    "reminders": ["Chosen","No ability"],
+    "name": "Bodyguard",
+    "team": "townsfolk",
+    "ability": "Once per game, at night, choose a character (not yourself): evil abilities that would affect them specifically, don't."
+  },
+  {
+    "id": "Voyeur",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/voyuer.png?raw=true",
+    "reminders": ["chosen"],
+    "name": "Voyeur",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player: if they died tonight, all players learn you are the Voyeur."
+  },
+  {
+    "id": "Hustler",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/hustler.png?raw=true",
+    "reminders": ["Broken Madness", "Nominated"],
+    "name": "Hustler",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn which character nominated you today. If you were mad that you were the hustler, you get false info."
+  },
+  {
+    "id": "Scavenger",
+    "image": "",
+    "reminders": ["no ability"],
+    "name": "Scavenger",
+    "team": "townsfolk",
+    "ability": "If both of your good neighbors die, something good happens to your team."
+  },
+  {
+    "id": "Genius",
+    "image": "",
+    "reminders": ["Drunk"],
+    "name": "Genius",
+    "team": "townsfolk",
+    "ability": "Each night, choose a good character: you have that ability until you choose again. You are drunk every other night."
+  },
+  {
+    "id": "Weaver",
+    "image": "",
+    "reminders": [],
+    "name": "Weaver",
+    "team": "townsfolk",
+    "ability": "You start knowing a set of players. Each day, you may privately guess what it is."
+  },
+  {
+    "id": "Stableboy",
+    "image": "",
+    "reminders": ["Learned"],
+    "name": "Stableboy",
+    "team": "townsfolk",
+    "ability": "Each night, you learn 1 in-play character."
+  },
+  {
+    "id": "Nun",
+    "image": "",
+    "reminders": [],
+    "name": "Nun",
+    "team": "townsfolk",
+    "ability": "Good Townsfolk can not be drunk, poisoned, or get false information.[+0 or +1 Outsider]"
+  },
+  {
+    "id": "Scavenger",
+    "image": "",
+    "reminders": ["no ability"],
+    "name": "Scavenger",
+    "team": "townsfolk",
+    "ability": "If both of your good neighbors die, something good happens to your team."
+  },
+  {
+    "id": "Blacksmith",
+    "image": "",
+    "reminders": [],
+    "name": "Blacksmith",
+    "team": "townsfolk",
+    "ability": "You start knowing how many Outsiders are in play. All Outsiders are drunk even if you are dead. [-? to +? Outsiders]"
+  },
+  {
+    "id": "Mole",
+    "image": "",
+    "reminders": ["Guess Used"],
+    "name": "Mole",
+    "team": "townsfolk",
+    "ability": "You are a Minion too. If the Demon publicly Guesses you (once), your team loses even if dead, drunk or poisoned."
+  },
+  {
+    "id": "Piper",
+    "image": "",
+    "reminders": ["Ability Used"],
+    "name": "Piper",
+    "team": "townsfolk",
+    "ability": "Once per game, publicly choose that from now on: Minions can privately choose to turn good, but the next executee's team loses."
+  },
+  {
+    "id": "Constable",
+    "image": "",
+    "reminders": [],
+    "name": "Constable",
+    "team": "townsfolk",
+    "ability": "Each night, choose an evil character: you learn 1 or more characters that are not this character."
+  },
+  {
+    "id": "Beekeeper",
+    "image": "",
+    "reminders": [],
+    "name": "Beekeeper",
+    "team": "townsfolk",
+    "ability": "You choose which 3 good characters (not the Beekeeper) the Demon gets as bluffs."
+  },
+    {
+    "id": "Pirate",
+    "image": "",
+    "reminders": [],
+    "name": "Pirate",
+    "team": "townsfolk",
+    "ability": "You start knowing how many Pirates are in play. if Pirates are the only good character alive, good wins. [+0 to +2 Pirates]"
+  },
+    {
+    "id": "Shaman",
+    "image": "",
+    "reminders": [],
+    "name": "Shaman",
+    "team": "townsfolk",
+    "ability": "Evil players think they are different evil characters. They learn what they are when the shaman dies."
+  },
+  {
+    "id": "Locksmith",
+    "image": "",
+    "reminders": ["Is the Locksmith"],
+    "name": "Locksmith",
+    "team": "townsfolk",
+    "ability": "You think you are an Outsider, but you are not. The 1st time you are executed, something good happens. [+0 or +1 Outsider]"
+  },
+  {
+    "id": "Palm Reader",
+    "image": "",
+    "reminders": [],
+    "name": "Palm Reader",
+    "team": "townsfolk",
+    "ability": "The Demon acts one night before it takes effect. Each night, you learn which player(s) the demon attacked."
+  },
+  {
+    "id": "Taxman",
+    "image": "",
+    "reminders": ["Learned"],
+    "name": "Taxman",
+    "team": "townsfolk",
+    "ability": "Evil can't win. The 1st time evil would win, the Demon learns you are the Taxman tonight."
+  },
+  {
+    "id": "Machinist",
+    "image": "",
+    "reminders": ["Machinist"],
+    "name": "Machinist",
+    "team": "townsfolk",
+    "ability": "On your 1st day, visit the Storyteller to become a non-listed character, even if drunk or poisoned. [+0 to +2 Machinists]"
+  },
+  {
+    "id": "Coachman",
+    "image": "",
+    "reminders": [],
+    "name": "Coachman",
+    "team": "townsfolk",
+    "ability": "Each day, choose a 1-word topic on which the Storyteller gives a fact. If your neighbors are different alignments, it is false."
+  },
+  {
+    "id": "Diplomat",
+    "image": "",
+    "reminders": ["Learned"],
+    "name": "Diplomat",
+    "team": "townsfolk",
+    "ability": "You start knowing which players are minions. If a minion you know is executed, your team loses, even if you're dead."
+  },
+  {
+    "id": "Druid",
+    "image": "",
+    "reminders": ["Learned"],
+    "name": "Druid",
+    "team": "townsfolk",
+    "ability": "You start knowing which players are minions. If a minion you know is executed, your team loses, even if you're dead."
+  },
+  {
+    "id": "Fairy",
+    "image": "",
+    "reminders": ["Learned"],
+    "name": "Fairy",
+    "team": "townsfolk",
+    "ability": "If the demon attacks a player it attacks one of their living neighbors instead. Each night* choose if you are drunk or not."
+  },
+  {
+    "id": "Houndskeeper",
+    "image": "",
+    "reminders": ["Learned"],
+    "name": "Houndskeeper",
+    "team": "townsfolk",
+    "ability": "Each night, you learn how many steps to the nearest living player targeted by an evil player."
+  },
+  {
+    "id": "Insomniac",
+    "image": "",
+    "reminders": ["Learned"],
+    "name": "Insomniac",
+    "team": "townsfolk",
+    "ability": "Each night, you learn a character that died tonight."
+  },
+  {
+    "id": "Leper",
+    "image": "",
+    "reminders": ["Poisoned"],
+    "name": "Leper",
+    "team": "townsfolk",
+    "ability": "If the demon kills you, it is poisoned."
+  },
+  {
+    "id": "Lion Tamer",
+    "image": "",
+    "reminders": ["Safe from Demon"],
+    "name": "Leper",
+    "team": "townsfolk",
+    "ability": "If either alive neighbors died by execution today, all players are safe from the Demon tonight."
+  },
+  {
+    "id": "Merchant",
+    "image": "",
+    "reminders": ["Made Deal"],
+    "name": "Merchant",
+    "team": "townsfolk",
+    "ability": "Once per game you & 1 other player may choose to make a deal. Whoever breaks the deal, loses."
+  },
+  {
+    "id": "Messanger",
+    "image": "",
+    "reminders": ["Question asked","Learns Answer"],
+    "name": "Messanger",
+    "team": "townsfolk",
+    "ability": "Once per game, publicly ask a question. On the final night, even if you are dead, an alive player gets the answer."
+  },
+  {
+    "id": "Moneylender",
+    "image": "",
+    "reminders": ["Chosen"],
+    "name": "Moneylender",
+    "team": "townsfolk",
+    "ability": "Each night, choose an alive player (Not yourself), you become their alignment."
+  },
+  {
+    "id": "Mystic",
+    "image": "",
+    "reminders": ["Died at night"],
+    "name": "Mystic",
+    "team": "townsfolk",
+    "ability": "If you died at night, you are reborn as a good character of your choice on the final night, even if drunk or poisoned."
+  },
+  {
+    "id": "Nanny",
+    "image": "",
+    "reminders": ["Eyes covered"],
+    "name": "Nanny",
+    "team": "townsfolk",
+    "ability": "At night, other player with both hands over their eyes can not die, but if you die, they die too."
+  },
+  {
+    "id": "Poet",
+    "image": "",
+    "reminders": ["Chosen"],
+    "name": "Poet",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player: you learn how many of a particular letter is in their character name. (But not which letter)"
+  },
+  {
+    "id": "Prophet",
+    "image": "",
+    "reminders": [],
+    "name": "Prophet",
+    "team": "townsfolk",
+    "ability": "On your 1st night, choose a day number: if all dead players are good that dawn, they are resurrected as Travelers."
+  },
+  {
+    "id": "Quack",
+    "image": "",
+    "reminders": ["Chosen"],
+    "name": "Quack",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 living players: abilities that target 1 target the other instead. The demon cannot die this way."
+  },
+  {
+    "id": "Scholar",
+    "image": "",
+    "reminders": [],
+    "name": "Scholar",
+    "team": "townsfolk",
+    "ability": "You start knowing which Demon(s) & Minion(s) are in play."
+  },
+  {
+    "id": "Schoolmarm",
+    "image": "",
+    "reminders": [],
+    "name": "Schoolmarm",
+    "team": "townsfolk",
+    "ability": "Players who turn evil learn you are in play & may choose to remain good. [1 evil-creating character is in-play]"
+  },
+  {
+    "id": "Strongman",
+    "image": "",
+    "reminders": ["Has ability"],
+    "name": "Strongman",
+    "team": "townsfolk",
+    "ability": "If you were the only player mad about being the Strongman today & a player chooses you tonight for any reason, they die."
+  },
+  {
+    "id": "Thespian",
+    "image": "",
+    "reminders": ["Mad"],
+    "name": "Thespian",
+    "team": "townsfolk",
+    "ability": "Each day a good and an evil player are each 'mad' about something, or they might die."
+  },
+  {
+    "id": "Tycoon",
+    "image": "",
+    "reminders": ["Hand Shaken","Drunk"],
+    "name": "Tycoon",
+    "team": "townsfolk",
+    "ability": "Each night*, learn if you shook hands with an evil player today. 1 player that you have ever shaken hands with is drunk."
+  },
+  {
+    "id": "Witch Hunter",
+    "image": "",
+    "reminders": ["Chosen","Turned Evil"],
+    "name": "Witch Hunter",
+    "team": "townsfolk",
+    "ability": "Each night, Choose a player: you learn their alignment. If they are not executed tomorrow, they turn evil. You can not be evil."
+  }
+]

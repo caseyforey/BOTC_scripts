@@ -1,0 +1,122 @@
+[
+  {
+    "id": "Queen of Lies",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/queen%20of%20lies.png?raw=true",
+    "reminders": ["chosen","dead"],
+    "name": "Queen of Lies",
+    "team": "demon",
+    "ability": "Each night*, you may choose 3 players (all players learn who): each silently chooses a different alive player, 2 of whom die."
+  },
+  {
+    "id": "Hwisp",
+    "image": "",
+    "reminders": ["Nominated Today"],
+    "name": "Hwisp",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. If a Townsfolk nominates you, you die. Each day if 2 Townsfolk nominate, evil wins."
+  },
+  {
+    "id": "Tipi-Tipi",
+    "image": "",
+    "reminders": ["Was the Copycat"],
+    "name": "Tipi-Tipi",
+    "team": "demon",
+    "ability": "Each night*, a player dies. On the final night, choose 2 players: the 1st is mad the 2nd is not the Demon or their team loses."
+  },
+  {
+    "id": "Fanzazz",
+    "image": "",
+    "reminders": ["Was the Copycat"],
+    "name": "Fanzazz",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die & you become their alignment. If you die your team loses. If just 2 players live, your team wins."
+  },
+  {
+    "id": "Virilus",
+    "image": "",
+    "reminders": ["Infected","Dead"],
+    "name": "Fanzazz",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die & you become their alignment. If you die your team loses. If just 2 players live, your team wins."
+  },
+  {
+    "id": "Word of God",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/word%20of%20god.png?raw=true",
+    "reminders": ["Hand Raised","Dead"],
+    "name": "Word of God",
+    "team": "demon",
+    "ability": "Each dusk*, for each good player with a hand raised, choose a player: they die. If no one living raised a hand, evil wins."
+  },
+  {
+    "id": "Dolomite",
+    "image": "",
+    "reminders": ["Hand Raised","Dead"],
+    "name": "Word of God",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they turn evil and learn who you are. Once per game, you lose this ability.[No Minions]"
+  },
+  {
+    "id": "Hydra",
+    "image": "",
+    "reminders": ["Spawn","Dead","Is the hydra"],
+    "name": "Hydra",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. 1 ally of each executee is the spawn. If you are executed the spawn becomes Hydra."
+  },
+  {
+    "id": "J'Nak",
+    "image": "",
+    "reminders": ["Dead","Learned","Knows"],
+    "name": "J'Nak",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. 1 good player knows you are 1 of 2 players. If you are executed while a minion lives, evil wins."
+  },
+  {
+    "id": "Le Cadeau",
+    "image": "",
+    "reminders": ["Dead","Nominated","Is the Le Cadeau"],
+    "name": "Le Cadeau",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. The 1st townsfolk to nominate Le Cadeau becomes an evil Le Cadeau and you die tonight."
+  },
+  {
+    "id": "Shacklewight",
+    "image": "",
+    "reminders": ["Dead","Chosen"],
+    "name": "Shacklewight",
+    "team": "demon",
+    "ability": "Each night, choose any number of players: they all wake together. Tomorrow day, if one dies they all die. 1 Player must die each day."
+  },
+  {
+    "id": "Sissaphyth",
+    "image": "",
+    "reminders": ["Was the Sissaphyth"],
+    "name": "Sissaphyth",
+    "team": "demon",
+    "ability": "At night, if 1 good player and 1 evil player are dead, choose a Demon: become it, acting twice each night."
+  },
+  {
+    "id": "Soul Hammer",
+    "image": "",
+    "reminders": ["Dead cannot speak"],
+    "name": "Soul Hammer",
+    "team": "demon",
+    "ability": "Each night*, choose a player, they die. After the final night, the dead may not talk to the living."
+  },
+  {
+    "id": "The Rising",
+    "image": "",
+    "reminders": [],
+    "name": "The Rising",
+    "team": "demon",
+    "ability": "All Players start dead. If executed. They are raised from the dead. If all players of 1 alignment are alive, their team wins."
+  },
+  {
+    "id": "Zodian",
+    "image": "",
+    "reminders": ["Dead"],
+    "name": "Zodian",
+    "team": "demon",
+    "ability": "A character dies each night*, in script order. Evil players start knowing all not-in-play good characters."
+  }
+]

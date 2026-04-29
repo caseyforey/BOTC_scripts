@@ -1,0 +1,153 @@
+[
+  {
+    "id": "Haunt",
+    "image": "",
+    "reminders": ["chosen"],
+    "name": "Haunt",
+    "team": "minion",
+    "ability": "Each night*, choose a player: they learn this. if you have chosen all alive good players, evil wins. Good can't win."
+  },
+  {
+    "id": "Imposter",
+    "image": "",
+    "reminders": ["Poison","Mad as"],
+    "name": "Imposter",
+    "team": "minion",
+    "ability": "You poison & gain the ability of the 1st in-play character that you are mad about being each day."
+  },
+  {
+    "id": "Puppeteer",
+    "image": "",
+    "name": "Puppeteer",
+    "team": "minion",
+    "ability": "The Storyteller might do what you ask (within the rules), including answering questions and passing messages."
+  },
+  {
+    "id": "Racketeer",
+    "image": "",
+    "reminders": [""],
+    "name": "Racketeer",
+    "team": "minion",
+    "ability": "If a successful vote is tied, one of the nominees (not the Demon) is executed immediately."
+  },
+  {
+    "id": "Amaniti",
+    "image": "",
+    "reminders": ["Neighbors"],
+    "name": "Amaniti",
+    "team": "minion",
+    "ability": "Your neighbors register falsely to good players' abilities."
+  },
+  {
+    "id": "Daughter of Nox",
+    "image": "",
+    "reminders": ["No ability","Named"],
+    "name": "Amaniti",
+    "team": "minion",
+    "ability": "Your neighbors register falsely to good players' abilities."
+  },
+  {
+    "id": "Vat Dweller",
+    "image": "",
+    "reminders": [],
+    "name": "Vat Dweller",
+    "team": "minion",
+    "ability": "All Outsiders are the same Outsider, you might choose which.[-? to +? Outsiders]"
+  },
+  {
+    "id": "Copycat",
+    "image": "",
+    "reminders": ["Was the Copycat"],
+    "name": "Copycat",
+    "team": "minion",
+    "ability": "You are another in-play Minion too. If no other Minions are in play, choose which Minion you are."
+  },
+  {
+    "id": "Damned",
+    "image": "",
+    "reminders": [],
+    "name": "Damned",
+    "team": "minion",
+    "ability": "If all good players die, good wins. The Demon cannot kill the last living Damned.[+0 to +2 Damned]"
+  },
+  {
+    "id": "Vampire",
+    "image": "",
+    "reminders": [],
+    "name": "Vampire",
+    "team": "minion",
+    "ability": "You wake during Demon info instead of Minion info. You know which Minion is good.[+1 good minion who thinks they're evil]"
+  },
+  {
+    "id": "Senator",
+    "image": "",
+    "reminders": [],
+    "name": "Senator",
+    "team": "minion",
+    "ability": "Players may only nominate their living neighbors, even if you are dead."
+  },
+  {
+    "id": "Familiar",
+    "image": "",
+    "reminders": ["Dead", "No ability"],
+    "name": "Familiar",
+    "team": "minion",
+    "ability": "Each night*, you wake with the demon & choose a player: they die. If you die, the demon loses its ability for the night."
+  },
+  {
+    "id": "Klaun",
+    "image": "",
+    "reminders": ["Mad"],
+    "name": "Klaun",
+    "team": "minion",
+    "ability": "Each night, you choose up to 3 players: they think they are mad, but are not."
+  },
+  {
+    "id": "Necromancer",
+    "image": "",
+    "reminders": ["Not alive"],
+    "name": "Necromancer",
+    "team": "minion",
+    "ability": "Once per game, at night, choose a player: they register as alive and think they have an ability, but don't."
+  },
+  {
+    "id": "Riddle Fiend",
+    "image": "",
+    "reminders": [],
+    "name": "Riddle Fiend",
+    "team": "minion",
+    "ability": "On the final day, even if you are dead, all players learn the Riddle Fiend is in play and guess who you are. Unless 2 players do, Evil wins."
+  },
+  {
+    "id": "Ring Master",
+    "image": "",
+    "reminders": ["Is the Storyteller"],
+    "name": "Ring Master",
+    "team": "minion",
+    "ability": "Once per game, choose to become (or assist) the storyteller. You may still vote."
+  },
+  {
+    "id": "Scarecrow",
+    "image": "",
+    "reminders": [],
+    "name": "Scarecrow",
+    "team": "minion",
+    "ability": "To good players, you register as the Demon & the Demon registers as a minion"
+  },
+  {
+    "id": "Sicilian",
+    "image": "",
+    "reminders": [],
+    "name": "Sicilian",
+    "team": "minion",
+    "ability": "When nominations are called, if you publicly choose a player (Not yourself) & they are not executed today, Their team wins."
+  },
+  {
+    "id": "Smuggler",
+    "image": "",
+    "reminders": ["Learns Smuggler"],
+    "name": "Smuggler",
+    "team": "minion",
+    "ability": "On the 1st night choose a good player: they learn you are 1 of 3 players. [+1 Minion, all Minions are Smugglers]"
+  }
+]

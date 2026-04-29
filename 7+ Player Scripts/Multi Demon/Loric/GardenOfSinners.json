@@ -1,0 +1,181 @@
+[
+  {
+    "id": "_meta",
+    "name": "Toms Tomb",
+    "author": "Casey"
+  },
+    {
+    "id": "Ok",
+    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_baker.png?raw=true",
+    "firstNight": 11,
+    "firstNightReminder": "Show 3 character tokens.",
+    "reminders": [
+      "In play"
+    ],
+    "name": "Baker",
+    "team": "townsfolk",
+    "ability": "You start knowing 3 characters, 1 and only 1 of which is in play."
+  },
+
+  {
+    "id": "Engineer"
+  },
+  {
+    "id": "Pixie"
+  },
+  {
+    "id": "Princess"
+  },
+  {
+    "id": "Falconer",
+    "image": "",
+    "firstNight":"",
+    "firstNightReminder":"",
+    "reminders": [""],
+    "name": "Falconer",
+    "team": "townsfolk",
+    "ability": "Each dusk*, you may visit the Storyteller to learn how many townsfolk are alive. [+0 or +1 Outsiders]"
+  },
+  {
+    "id": "Hangman",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/Townsfolk/hangman_botc.png?raw=true",
+    "reminders": ["chosen","no ability"],
+    "name": "Hangman",
+    "team": "townsfolk",
+    "ability": "On your 1st day, choose a player. If they are a good & they don't declare their character immediately, they die."
+
+  },
+  {
+    "id": "Preacher"
+  },
+  {
+    "id": "Bon Vivant",
+    "image": "",
+    "reminders": ["Drunk"],
+    "name": "Bon Vivant",
+    "team": "townsfolk",
+    "ability": "Your alive neighbors (Not including travelers) that are not the demon, are drunk."
+
+  },
+  {
+    "id": "Voyeur",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/Townsfolk/voyuer.png?raw=true",
+    "reminders": ["chosen"],
+    "name": "Voyeur",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player: if they died tonight, all players learn you are the Voyeur."
+  },
+  {
+    "id": "Banshee"
+    
+  },
+  {
+    "id": "Hustler",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/Townsfolk/hustler.png?raw=true",
+    "reminders": ["Broken Madness", "Nominated"],
+    "name": "Hustler",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn which character nominated you today. If you were mad that you were the hustler, you get false info."
+  
+  },
+  {
+    "id": "Scavenger",
+    "image": "",
+    "reminders": "no ability",
+    "name": "Scavenger",
+    "team": "townsfolk",
+    "ability": "If both of your good neighbors die, something good happens to your team."
+  
+  },
+  {
+    "id": "Alsaahir"
+  },
+  {
+    "id": "Ok",
+    "image": "https://github.com/adambrenkus/botc-dt/blob/main/exported/ic_baker.png?raw=true",
+    "firstNight": 11,
+    "firstNightReminder": "Show 3 character tokens.",
+    "reminders": [
+      "In play"
+    ],
+    "name": "Baker",
+    "team": "townsfolk",
+    "ability": "You start knowing 3 characters, 1 and only 1 of which is in play."
+  },
+  {
+    "id": "Golem"
+  },
+  {
+    "id": "Zealot"
+  },
+  {
+    "id": "Feathermaster",
+    "image": "",
+    "reminders": ["drunk", "feathermaster"],
+    "name": "Feathermaster",
+    "team": "outsider",
+    "ability": "You think you are a Townsfolk & have that ability. Good players who nominate you are drunk until dusk tomorrow."
+  
+  },
+  {
+    "id": "Bully",
+    "image": "",
+    "reminders": ["Dead"],
+    "name": "Bully",
+    "team": "outsider",
+    "ability": "Any players who vote differently to you might die at any time."
+  
+  },
+  {
+    "id": "Haunt",
+    "image": "",
+    "reminders": ["chosen"],
+    "name": "Haunt",
+    "team": "minion",
+    "ability": "Each night*, choose a player: they learn this. if you have chosen all alive good players, evil wins. Good can't win."
+  
+  },
+  {
+    "id": "Imposter",
+    "image": "",
+    "reminders": ["Poison","Mad as"],
+    "name": "Imposter",
+    "team": "minion",
+    "ability": "You poison & gain the ability of the 1st in-play character that you are mad about being each day."
+  
+  },
+  {
+    "id": "Psychopath"
+  },
+  {
+    "id": "Puppeteer",
+    "image": "",
+    "name": "Puppeteer",
+    "team": "minion",
+    "ability": "The Storyteller might do what you ask (within the rules), including answering questions and passing messages."
+  
+  },
+  {
+    "id": "Yaggababble"
+  },
+  {
+    "id": "Queen of Lies",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/Demons/queen%20of%20lies.png?raw=true",
+    "reminders": ["chosen","dead"],
+    "name": "Queen of Lies",
+    "team": "demon",
+    "ability": "Each night*, you may choose 3 players (all players learn who): each silently chooses a different alive player, 2 of whom die."
+  },
+  {
+    "id": "Hand of God",
+    "image": "https://github.com/caseyforey/BOTC_scripts/blob/main/Images/Demons/word%20of%20god.png?raw=true",
+    "reminders": ["Hand Raised"],
+    "name": "Hand of God",
+    "team": "demon",
+    "ability": "Each dusk*, for each good player with a hand raised, choose a player: they die. If no one living raised a hand, evil wins."
+  
+  },
+  {
+    "id": "Al-Hadikhia"
+  }
+]
