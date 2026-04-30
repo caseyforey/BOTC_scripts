@@ -26,7 +26,7 @@
   {
     "id": "Fanzazz",
     "image": "",
-    "reminders": ["Was the Copycat"],
+    "reminders": ["Good","Bad"],
     "name": "Fanzazz",
     "team": "demon",
     "ability": "Each night*, choose a player: they die & you become their alignment. If you die your team loses. If just 2 players live, your team wins."
@@ -35,7 +35,7 @@
     "id": "Virilus",
     "image": "",
     "reminders": ["Infected","Dead"],
-    "name": "Fanzazz",
+    "name": "Virilus",
     "team": "demon",
     "ability": "Each night*, choose a player: they die & you become their alignment. If you die your team loses. If just 2 players live, your team wins."
   },
@@ -51,7 +51,7 @@
     "id": "Dolomite",
     "image": "",
     "reminders": ["Hand Raised","Dead"],
-    "name": "Word of God",
+    "name": "Dolomite",
     "team": "demon",
     "ability": "Each night*, choose a player: they turn evil and learn who you are. Once per game, you lose this ability.[No Minions]"
   },
